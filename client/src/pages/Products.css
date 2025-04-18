@@ -1,0 +1,191 @@
+/* Products Page Styles */
+.products-page {
+  color: #333;
+}
+
+/* Hero Section */
+.products-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1558642891-54be180ea339');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+  margin-bottom: 60px;
+}
+
+.products-hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.products-hero-content p {
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Product Intro */
+.product-intro {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.product-intro h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffa000;
+}
+
+.product-intro p {
+  max-width: 800px;
+  margin: 0 auto 15px;
+  line-height: 1.6;
+}
+
+/* Products Grid */
+.products-grid {
+  margin-bottom: 60px;
+}
+
+.products-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 30px;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+}
+
+.product-image {
+  height: 250px;
+  background-color: #ffd54f;
+  background-size: cover;
+  background-position: center;
+}
+
+.product-image.wildflower {
+  background-image: url('https://images.unsplash.com/photo-1471943311424-646960669fbc');
+}
+
+.product-image.heather {
+  background-image: url('https://images.unsplash.com/photo-1582359424842-562cb3be9cf1');
+}
+
+.product-image.cotswold {
+  background-image: url('https://images.unsplash.com/photo-1587049352851-8d4e89133924');
+}
+
+.product-image.honeycomb {
+  background-image: url('https://images.unsplash.com/photo-1563237739-e433ab9623c3');
+}
+
+.product-image.gift-set {
+  background-image: url('https://images.unsplash.com/photo-1589927986089-35812388d1f4');
+}
+
+.product-image.candles {
+  background-image: url('https://images.unsplash.com/photo-1613651723790-1a2c18b85b2f');
+}
+
+.product-details {
+  padding: 20px;
+}
+
+.product-details h3 {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.product-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.product-price {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #ffa000;
+}
+
+.product-size {
+  color: #666;
+}
+
+.product-description {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Wholesale Section */
+.wholesale-info {
+  background-color: #fff8e6;
+  padding: 60px 0;
+  margin-bottom: 60px;
+}
+
+.wholesale-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wholesale-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffa000;
+}
+
+.wholesale-content p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.wholesale-btn {
+  margin-top: 20px;
+  background-color: #ffa000;
+  color: #fff;
+  font-weight: 600;
+}
+
+.wholesale-btn:hover {
+  background-color: #ff8f00;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .products-hero {
+    height: 300px;
+  }
+  
+  .products-hero-content h1 {
+    font-size: 2.2rem;
+  }
+  
+  .products-list {
+    grid-template-columns: 1fr;
+  }
+}
