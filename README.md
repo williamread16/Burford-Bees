@@ -1,7 +1,5 @@
 # Burford Bees Website
 
-A modern, responsive website for Burford Bees, a local honey company.
-
 ## Project Structure
 
 This project is built with:
@@ -14,18 +12,17 @@ The project is organized into two main directories:
 
 ## Features
 
-- Responsive design that works on all devices
-- Home page showcasing the company and featured products
-- About page with company story and team information
-- Products page displaying the full product catalog
-- Contact page with a form for customer inquiries
+- Home page
+- About page
+- Products page
+- Contact page
 - Basic Express.js backend for handling form submissions and serving product data
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js and npm installed on your machine
+- Node.js and npm installed
 
 ### Installation
 
